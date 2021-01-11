@@ -86,7 +86,9 @@
 
                 <div class="links">
                     <a href="http://localhost/syojo">症状一覧</a>
-
+                    <a href="http://localhost/part">不良箇所一覧</a>
+                    <a href="http://localhost/cause">原因一覧</a>
+                    <a href="http://localhost/comment">所見一覧</a>
                 </div>
             </div>
         </div>

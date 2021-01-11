@@ -35,6 +35,10 @@
         </tr>
     @endforeach
 </table>
+<br>
+<div class="links">
+    <a href="http://localhost/">->タイトル画面に戻る</a>
+</div>
 @endsection
 
 @section('footer')

@@ -22,6 +22,11 @@ Route::get('part', 'PartController@index');
 Route::get('part/add', 'PartController@add');
 Route::post('part/add', 'PartController@create');
 
+Route::get('cause', 'CauseController@index');
+
+Route::get('comment', 'CommentController@index');
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
