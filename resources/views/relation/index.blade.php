@@ -19,10 +19,10 @@
     </tr>
         @foreach($items as $item)
             <tr>
-                <td>{{$item->syojo_id}}</td>
-                <td>{{$item->part_id}}</td>
-                <td>{{$item->cause_id}}</td>
-                <td>{{$item->comment_id}}</td>
+                <td>{{$item->syojo->syojo}}</td>
+                <td>{{$item->part->part}}</td>
+                <td>{{$item->cause->cause}}</td>
+                <td>{{$item->comment->comment}}</td>
             </tr>
         @endforeach
 </table>

@@ -17,8 +17,6 @@ class RelationController extends Controller
         // 関連性レコードをidから検索する
         $items = Relation::all();
 
-        echo ($items);
-
         return view('relation.index', ['items' => $items]);
     }
 }
