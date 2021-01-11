@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">症状一覧</a>
+                    <a href="http://localhost/syojo">症状一覧</a>
 
                 </div>
             </div>
