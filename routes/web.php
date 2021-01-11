@@ -11,6 +11,9 @@
 |
 */
 
+
+Route::get('ko', 'KoController@index');
+
 Route::get('/', function () {
     return view('welcome');
 });
