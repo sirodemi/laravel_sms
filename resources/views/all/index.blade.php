@@ -8,17 +8,53 @@
 
 
 @section('content')
-<table>
-    <tr><th>id</th><th>症状</th></tr>
-    @foreach($items_syojo as $item_syojo)
-        <tr>
-            <td>{{$item_syojo->id}}</td>
-            <td>{{$item_syojo->syojo}}</td>
-        </tr>
-    @endforeach
+
+<table border="0">
+    <tr><td valign="top">
+    <table>
+        <tr><th>id</th><th>症状</th></tr>
+        @foreach($items_syojo as $item)
+            <tr>
+                <td>{{$item->id}}</td>
+                <td>{{$item->syojo}}</td>
+            </tr>
+        @endforeach
+    </table>
+    </td><td valign="top">
+
+    <table>
+        <tr><th>id</th><th>不良箇所</th></tr>
+        @foreach($items_part as $item)
+            <tr>
+                <td>{{$item->id}}</td>
+                <td>{{$item->part}}</td>
+            </tr>
+        @endforeach
+    </table>
+    </td><td valign="top">
+
+    <table>
+        <tr><th>id</th><th>原因</th></tr>
+        @foreach($items_cause as $item)
+            <tr>
+                <td>{{$item->id}}</td>
+                <td>{{$item->cause}}</td>
+            </tr>
+        @endforeach
+    </table>
+    </td><td valign="top">
+
+    <table>
+        <tr><th>id</th><th>所見</th></tr>
+        @foreach($items_comment as $item)
+            <tr>
+                <td>{{$item->id}}</td>
+                <td>{{$item->comment}}</td>
+            </tr>
+        @endforeach
+    </table>
+    </td></tr>
 </table>
-
-
 
 <br>
 <div class="links">
