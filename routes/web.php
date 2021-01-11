@@ -26,6 +26,9 @@ Route::get('cause', 'CauseController@index');
 
 Route::get('comment', 'CommentController@index');
 
+Route::get('all', 'AllController@index');
+
+
 
 Auth::routes();
 
